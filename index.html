@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fuentes de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- Vista de link -->    
+    <meta property="og:title" content="Mi proyecto del Curso Bootstrap" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" 
+      content="Todo lo que necesitas saber en tu día a día como Frontend" />
+    <meta property="og:url" content="https://agraso.github.io/curso-bootstrap/" />
+    <meta property="og:image" content="https://www.wilde-it.com/wp-content/uploads/2021/12/bootstrap.jpg" />
+
+
+    <!-- Archivo Bootstrap CSS -->
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- Archivo CSS Personalizado-->
+     <link type="text/css" href="css/estilo.css" rel="stylesheet">
+     <link rel="shortcut icon" href="imagen/icons.png" type="image/x-icon">
+
+    <title>Prueba de Página</title>
+  </head>
+  <body>
+
+     <!-- Navegacion-->
+
+<nav class="navbar navbar-dark bg-black navbar-expand-md fixed-top">
+  <div class="container">
+    <a href="#" class="navbar-brand"> <strong>Enrique</strong> Agraso</a>
+
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false"
+    aria-label="Desplegar menú de navegación" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu-principal">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a href="#" class="nav-link active"">Inicio</a></li>
+        <li class="nav-item"><a href="#ve" class="nav-link"">¿Quién soy?</a></li>
+        <li class="nav-item"><a href="#vz" class="nav-link"">Proyectos</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+     <!-- Seccion Quien Soy-->
+
+    <section class="quien-soy py-4 mt-5" id="ve">
+      <div class="container">
+        <div class="row">
+
+        <article class="col-12 col-md-6">
+          <img src="imagen/yo.jpg" alt="Soy el desarrollador" class="img-fluid mb-4 m4-md-0" width="400" height="auto">
+        </article>
+        <article class="col-12 col-md-6 text-center text-md-start">
+         <h1 class="display-2 fw-bold text-primary">¿Quién soy?</h1>
+         <p>Una persona que le da fastidio trabajar, perop se esmera cuando toca. Bastante terco, pero super amable. Muy cariñoso, sin embargo me molesto con facilidad </p>
+         <button type="button" class="btn btn-primary btn-lg" >Leer más</button>
+        </article>
+
+        </div>
+      </div>
+    </section> 
+
+      <!-- Seccion Filosofia  -->
+
+      <section class="filosofia py-4 bg-primary text-center text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img src="imagen/avata.jpg" width="260" height="auto" alt="Avatar de Tomas Mendez" class="img-fluid rounded-circle mb-4">
+              <p class="h2">No se que tengo que escribir aqui asi que asi queda (Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus reiciendis unde minus sapiente. Debitis quae sit quod quos provident enim incidunt nemo quidem ut consequuntur sed, voluptate magnam ipsam delectus).</p>
+              <p class="h4 fst-italic ">-El chamuco</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Seccion Proyectos -->
+
+<section class="proyectos py-4" id="vz">
+  <div class="container">
+    <h1 class="display-1 fw-bold text-center pb-4">Mis Proyectos</h1>
+    <div class="row text-md-center">
+  
+  
+      <article class="col-12 col-md-6 col-lg-3 mb-3 md-lg-0">
+        <div class="card">
+          <img src="imagen/ella.jpg" class="card-img-top h-100" alt="Proyecto 1">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1</h5>
+            <p class="card-text">Tratar de verla feliz y del mismo modo siempre hacerla sonreir</p>
+            <a href="#" class="btn btn-primary">Ver proyecto</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3 mb-3 md-lg-0">
+        <div class="card">
+          <img src="imagen/Goma.jpg" class="card-img-top h-100" alt="Proyecto 2">
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 2</h5>
+            <p class="card-text">Lograrlo con el primer obsequio sorpresa, fue una caja de gomitas</p>
+            <a href="#" class="btn btn-primary">Ver proyecto</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3 mb-3 md-lg-0">
+        <div class="card">
+          <video src="imagen/elvideo.mp4" class="card-img-top h-100" type="video/mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 3</h5>
+            <p class="card-text">Esta sera la proxima sorpresa, la verdad no sé si se ve pero seria brutal que le gustara este detallito</p>
+            <a href="#" class="btn btn-primary">Ver proyecto</a>
+          </div>
+        </div>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3 mb-3 md-lg-0">
+        <div class="card">
+          <img src="imagen/proyecto4.png" class="card-top h-100" alt="Proyecto 4" controls>
+          <div class="card-body">
+            <h5 class="card-title">No existe aun</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem vel maxime, debitis mollitia sequi tempore eligendi aperiam cupiditate et commodi nemo, omnis molestias, id inventore temporibus illum a perferendis eos!</p>
+            <a href="#" class="btn btn-primary">Ver proyecto</a>
+          </div>
+        </div>
+      </article>
+      
+  
+    </div>
+  </div>
+</section>
+
+     <!-- Pie de Pagina-->
+
+<footer class="pie-de-pagina bg-dark text-white text-center text-md-end">
+<p class="me-5 mb-0 py-3">Copyright © 2018. Todos los derechos reservados.</p>
+</footer>
+
+
+
+
+
+
+
+
+
+    <!-- Archivo Bootstrap JavaScript -->
+    <script src="js/jquery-3.6.0.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+  </body>
+</html>
